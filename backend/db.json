@@ -1,19 +1,19 @@
 {
-   "product": [
-     {
-     "id": 1,
-     "nome": "Caneta BIC Preta",
-     "price": 5.89
-   },
-   {
-    "id": 2,
-    "nome": "Notebook Mac Pro",
-    "price": 12000
-  }
-  ,{
-    "id": 3,
-    "nome": "Samsung Book",
-    "price": 5000
-  }
+  "product": [
+    {
+      "id": 1,
+      "name": "Caneta BIC Preta",
+      "price": 5.89
+    },
+    {
+      "id": 2,
+      "name": "Notebook Mac Pro",
+      "price": 12000
+    },
+    {
+      "id": 3,
+      "name": "Samsung Book",
+      "price": 5000
+    }
   ]
 }

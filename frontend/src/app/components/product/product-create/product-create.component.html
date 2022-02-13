@@ -1,3 +1,23 @@
-<p [id]="atributo"> product-create works!</p>
-
-<button (click)="fazerAlgo()">Fazer Algo</button>
+<mat-card>
+  <mat-card-title>Novo Produto</mat-card-title>
+  <form action="">
+    <mat-form-field>
+      <input matInput name="name"
+        [(ngModel)]="product.name"
+        placeholder="Nome" type="text"
+      >
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput name="price"
+        [(ngModel)]="product.price"
+        placeholder="Preço (R$)" type="number"
+      >
+    </mat-form-field>
+  </form>
+  <button color="primary" mat-raised-button (click)="createProduct()">
+    Salvar
+  </button>
+  <button color="ca" mat-raised-button (click)="cancel()">
+    Cancelar
+  </button>
+</mat-card>
